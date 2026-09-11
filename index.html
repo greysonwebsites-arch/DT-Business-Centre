@@ -1,154 +1,541 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="DT Business Centre — Mumbwa, Zambia. A growing commercial hub for businesses, services and customers.">
-<title>DT Business Centre | Mumbwa</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="DT Business Centre - A growing commercial hub in Mumbwa, Zambia.">
+  <meta name="keywords" content="DT Business Centre, Mumbwa, Zambia, shops, businesses, commercial centre">
+
+  <title>DT Business Centre | Mumbwa</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header class="header">
-  <div class="container nav-wrap">
-    <a class="brand" href="#home">
-      <img src="assets/dt-business-centre-logo.png" alt="DT Business Centre logo">
+<header class="site-header">
+
+  <div class="container nav-container">
+
+    <a href="#home" class="logo">
+      <img src="dt-business-centre-logo.png" alt="DT Business Centre">
     </a>
-    <button class="menu-btn" aria-label="Toggle navigation">☰</button>
-    <nav class="nav">
+
+    <button class="menu-toggle" aria-label="Open navigation">
+      ☰
+    </button>
+
+    <nav class="navigation">
+
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#businesses">Businesses</a>
       <a href="#gallery">Gallery</a>
       <a href="#location">Location</a>
-      <a href="#contact" class="nav-cta">Contact</a>
+      <a href="#contact" class="contact-nav">Contact</a>
+
     </nav>
+
   </div>
+
 </header>
 
+
+<!-- HERO -->
+
 <section class="hero" id="home">
-  <img src="assets/dt-building-1.jpg" alt="DT Business Centre in Mumbwa" class="hero-img">
+
+  <img
+    src="dt-building-1.jpg"
+    alt="DT Business Centre in Mumbwa"
+    class="hero-image"
+  >
+
   <div class="hero-overlay"></div>
+
   <div class="container hero-content">
-    <span class="eyebrow light">MUMBWA • ZAMBIA</span>
-    <h1>DT Business<br><span>Centre</span></h1>
-    <p>A growing commercial hub bringing businesses, services and customers together in Mumbwa.</p>
+
+    <span class="hero-label">
+      MUMBWA • ZAMBIA
+    </span>
+
+    <h1>
+      DT Business<br>
+      <span>Centre</span>
+    </h1>
+
+    <p>
+      A growing commercial hub bringing businesses,
+      services and customers together in Mumbwa.
+    </p>
+
     <div class="hero-buttons">
-      <a href="#businesses" class="btn green">Explore Businesses</a>
-      <a href="#gallery" class="btn white">View Gallery</a>
+
+      <a href="#businesses" class="btn btn-green">
+        Explore Businesses
+      </a>
+
+      <a href="#gallery" class="btn btn-white">
+        View Gallery
+      </a>
+
     </div>
+
   </div>
+
 </section>
 
-<section class="section" id="about">
-  <div class="container split">
+
+<!-- ABOUT -->
+
+<section class="section about" id="about">
+
+  <div class="container two-column">
+
     <div>
-      <span class="eyebrow">ABOUT DT BUSINESS CENTRE</span>
-      <h2>A destination built for business.</h2>
+
+      <span class="section-label">
+        ABOUT DT BUSINESS CENTRE
+      </span>
+
+      <h2>
+        A destination built for business.
+      </h2>
+
     </div>
-    <div class="text">
-      <p>DT Business Centre is a commercial complex in Mumbwa, Zambia, bringing established businesses and services together in one convenient destination.</p>
-      <p>The centre provides a visible and accessible environment where businesses can serve customers, build their brands and grow within the Mumbwa community.</p>
+
+    <div class="section-text">
+
+      <p>
+        DT Business Centre is a commercial complex in
+        Mumbwa, Zambia, bringing established businesses
+        and services together in one convenient destination.
+      </p>
+
+      <p>
+        The centre provides a professional and accessible
+        environment where businesses can serve customers,
+        build their brands and grow within the Mumbwa community.
+      </p>
+
     </div>
+
   </div>
+
 </section>
 
-<section class="section light-section" id="businesses">
+
+<!-- BUSINESS DIRECTORY -->
+
+<section class="section businesses" id="businesses">
+
   <div class="container">
+
     <div class="section-heading">
+
       <div>
-        <span class="eyebrow">BUSINESS DIRECTORY</span>
-        <h2>Businesses at DT Business Centre</h2>
+
+        <span class="section-label">
+          BUSINESS DIRECTORY
+        </span>
+
+        <h2>
+          Businesses at DT Business Centre
+        </h2>
+
       </div>
-      <p>Explore the businesses and services currently represented at the centre.</p>
+
+      <p>
+        Discover businesses and services currently
+        represented at the centre.
+      </p>
+
     </div>
+
 
     <div class="business-grid">
-      <article class="business-card"><span>01</span><h3>Bayport Financial Services</h3><p>Financial services</p></article>
-      <article class="business-card"><span>02</span><h3>Country Choice Outlet</h3><p>Retail outlet</p></article>
-      <article class="business-card"><span>03</span><h3>AB Bank</h3><p>Banking services</p></article>
-      <article class="business-card"><span>04</span><h3>Zamtel</h3><p>Telecommunications</p></article>
-      <article class="business-card"><span>05</span><h3>Dynalab Int'l</h3><p>Laboratory services</p></article>
-      <article class="business-card"><span>06</span><h3>Good Fellow Finance Limited</h3><p>Financial services</p></article>
-      <article class="business-card"><span>07</span><h3>ASA Microfinance Zambia Limited</h3><p>Microfinance services</p></article>
-      <article class="business-card"><span>08</span><h3>Gatoma Motorcycle</h3><p>Motorcycle sales & services</p></article>
-      <article class="business-card"><span>09</span><h3>Gavis Pharmacy</h3><p>Pharmacy services</p></article>
+
+      <article class="business-card">
+
+        <span class="business-number">01</span>
+
+        <h3>
+          Bayport Financial Services
+        </h3>
+
+        <p>
+          Financial Services
+        </p>
+
+      </article>
+
+
+      <article class="business-card">
+
+        <span class="business-number">02</span>
+
+        <h3>
+          Country Choice Outlet
+        </h3>
+
+        <p>
+          Retail Outlet
+        </p>
+
+      </article>
+
+
+      <article class="business-card">
+
+        <span class="business-number">03</span>
+
+        <h3>
+          AB Bank
+        </h3>
+
+        <p>
+          Banking Services
+        </p>
+
+      </article>
+
+
+      <article class="business-card">
+
+        <span class="business-number">04</span>
+
+        <h3>
+          Zamtel
+        </h3>
+
+        <p>
+          Telecommunications
+        </p>
+
+      </article>
+
+
+      <article class="business-card">
+
+        <span class="business-number">05</span>
+
+        <h3>
+          Dynalab Int'l
+        </h3>
+
+        <p>
+          Laboratory Services
+        </p>
+
+      </article>
+
+
+      <article class="business-card">
+
+        <span class="business-number">06</span>
+
+        <h3>
+          Good Fellow Finance Limited
+        </h3>
+
+        <p>
+          Financial Services
+        </p>
+
+      </article>
+
+
+      <article class="business-card">
+
+        <span class="business-number">07</span>
+
+        <h3>
+          ASA Microfinance Zambia Limited
+        </h3>
+
+        <p>
+          Microfinance Services
+        </p>
+
+      </article>
+
+
+      <article class="business-card">
+
+        <span class="business-number">08</span>
+
+        <h3>
+          Gatoma Motorcycle
+        </h3>
+
+        <p>
+          Motorcycle Sales & Services
+        </p>
+
+      </article>
+
+
+      <article class="business-card">
+
+        <span class="business-number">09</span>
+
+        <h3>
+          Gavis Pharmacy
+        </h3>
+
+        <p>
+          Pharmacy Services
+        </p>
+
+      </article>
+
     </div>
+
   </div>
+
 </section>
+
+
+<!-- FEATURE -->
 
 <section class="section feature">
+
   <div class="container feature-grid">
-    <img src="assets/dt-building-2.jpg" alt="DT Business Centre frontage">
-    <div class="feature-panel">
-      <span class="eyebrow gold">SHOP • WORK • GROW</span>
-      <h2>One centre. Many businesses. One destination.</h2>
-      <p>DT Business Centre brings a range of services together in a professional commercial environment for the Mumbwa community.</p>
-      <a href="#contact" class="feature-link">Make an enquiry →</a>
+
+    <div class="feature-image">
+
+      <img
+        src="dt-building-2.jpg"
+        alt="DT Business Centre building"
+      >
+
     </div>
+
+
+    <div class="feature-content">
+
+      <span class="section-label gold">
+        SHOP • WORK • GROW
+      </span>
+
+      <h2>
+        One centre. Many businesses.
+        One destination.
+      </h2>
+
+      <p>
+        DT Business Centre brings a range of services
+        together in a professional commercial environment
+        serving the Mumbwa community.
+      </p>
+
+      <a href="#contact" class="feature-link">
+        Make an enquiry →
+      </a>
+
+    </div>
+
   </div>
+
 </section>
 
-<section class="section" id="gallery">
+
+<!-- GALLERY -->
+
+<section class="section gallery" id="gallery">
+
   <div class="container">
+
     <div class="section-heading">
+
       <div>
-        <span class="eyebrow">GALLERY</span>
-        <h2>DT Business Centre in pictures</h2>
+
+        <span class="section-label">
+          GALLERY
+        </span>
+
+        <h2>
+          DT Business Centre in pictures
+        </h2>
+
       </div>
-      <p>Real photographs of the centre, enhanced for clearer web presentation.</p>
+
+      <p>
+        Real photographs of the centre,
+        enhanced for clearer web presentation.
+      </p>
+
     </div>
+
+
     <div class="gallery-grid">
-      <img src="assets/dt-building-3.jpg" alt="DT Business Centre view" loading="lazy">
-      <img src="assets/dt-building-4.jpg" alt="DT Business Centre exterior" loading="lazy">
-      <img src="assets/dt-building-5.jpg" alt="DT Business Centre building" loading="lazy">
-      <img src="assets/dt-building-6.jpg" alt="DT Business Centre frontage" loading="lazy">
+
+      <img
+        src="dt-building-3.jpg"
+        alt="DT Business Centre view"
+        loading="lazy"
+      >
+
+      <img
+        src="dt-building-4.jpg"
+        alt="DT Business Centre exterior"
+        loading="lazy"
+      >
+
+      <img
+        src="dt-building-5.jpg"
+        alt="DT Business Centre building"
+        loading="lazy"
+      >
+
+      <img
+        src="dt-building-6.jpg"
+        alt="DT Business Centre frontage"
+        loading="lazy"
+      >
+
     </div>
+
   </div>
+
 </section>
 
-<section class="section light-section" id="location">
+
+<!-- LOCATION -->
+
+<section class="section location" id="location">
+
   <div class="container location-grid">
+
     <div>
-      <span class="eyebrow">LOCATION</span>
-      <h2>Visit DT Business Centre</h2>
-      <p>DT Business Centre is located in Mumbwa, Zambia. The official map pin and detailed directions can be added once confirmed by the owners.</p>
-      <div class="location-line">📍 <strong>Mumbwa, Zambia</strong></div>
-      <div class="location-line">🏢 <strong>Commercial Business Centre</strong></div>
+
+      <span class="section-label">
+        LOCATION
+      </span>
+
+      <h2>
+        Visit DT Business Centre
+      </h2>
+
+      <p>
+        DT Business Centre is located in Mumbwa, Zambia.
+        The official map pin and detailed directions can
+        be added once confirmed by the owners.
+      </p>
+
+      <div class="location-detail">
+        📍 <strong>Mumbwa, Zambia</strong>
+      </div>
+
+      <div class="location-detail">
+        🏢 <strong>Commercial Business Centre</strong>
+      </div>
+
     </div>
-    <div class="map-box">
-      <strong>DT BUSINESS CENTRE</strong>
-      <span>MUMBWA, ZAMBIA</span>
-      <small>Google Maps link can be added here.</small>
+
+
+    <div class="map-placeholder">
+
+      <div class="map-icon">
+        📍
+      </div>
+
+      <strong>
+        DT BUSINESS CENTRE
+      </strong>
+
+      <span>
+        MUMBWA, ZAMBIA
+      </span>
+
+      <small>
+        Official Google Maps location can be added here.
+      </small>
+
     </div>
+
   </div>
+
 </section>
+
+
+<!-- CONTACT -->
 
 <section class="section contact-section" id="contact">
+
   <div class="container contact-box">
+
     <div>
-      <span class="eyebrow gold">CONTACT DT BUSINESS CENTRE</span>
-      <h2>Looking for a business at the centre?</h2>
-      <p>Official phone, WhatsApp, email and enquiry details can be added here.</p>
+
+      <span class="section-label gold">
+        CONTACT DT BUSINESS CENTRE
+      </span>
+
+      <h2>
+        Looking for a business at the centre?
+      </h2>
+
+      <p>
+        Official phone, WhatsApp, email and enquiry
+        details can be added here.
+      </p>
+
     </div>
-    <a href="mailto:info@example.com" class="btn green">Send an Enquiry</a>
+
+    <a
+      href="mailto:info@example.com"
+      class="btn btn-green"
+    >
+      Send an Enquiry
+    </a>
+
   </div>
+
 </section>
 
+</main>
+
+
+<!-- FOOTER -->
+
 <footer>
-  <div class="container footer-wrap">
-    <img src="assets/dt-business-centre-logo.png" alt="DT Business Centre">
+
+  <div class="container footer-container">
+
+    <img
+      src="dt-business-centre-logo.png"
+      alt="DT Business Centre"
+    >
+
     <div>
-      <strong>DT Business Centre</strong>
-      <span>Mumbwa, Zambia • Shop • Work • Grow</span>
+
+      <strong>
+        DT Business Centre
+      </strong>
+
+      <span>
+        Mumbwa, Zambia • Shop • Work • Grow
+      </span>
+
     </div>
-    <small>© <span id="year"></span> DT Business Centre</small>
+
+    <small>
+      © <span id="year"></span>
+      DT Business Centre
+    </small>
+
   </div>
+
 </footer>
 
+
 <script src="script.js"></script>
+
 </body>
 </html>
